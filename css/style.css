@@ -71,4 +71,28 @@
   .news-container .news-box .news-box-element img {
     width: 600px;
   }
+  .myButton {
+    background-color: #2a8bed;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 23px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    width: 600px;
+  }
+  .myButton .button-box a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .myButton:hover {
+    background-color: #5972a7;
+  }
+  .myButton:active {
+    position: relative;
+    top: 1px;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -45,6 +45,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
     text-align: center;
     font-size: 3rem;
     padding: 4rem 1rem;
@@ -65,8 +67,8 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 59px;
+    margin-right: 59px;
     min-width: 650px;
   }
   .news-container .news-box {
@@ -83,8 +85,8 @@
     display: flex;
     justify-content: center;
     min-width: 650px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 59px;
+    margin-right: 59px;
   }
   .myButton {
     background-color: #2a8bed;
@@ -114,11 +116,28 @@
     justify-content: left;
     font-size: 2rem;
     padding-top: 3rem;
-    margin-left: 1rem;
+    margin-left: 59px;
+    margin-right: 59px;
   }
   .library-header h1 {
+    margin-left: 1rem;
     line-height: 1;
     font-weight: 300;
     text-align: left;
+  }
+  .library-container {
+    display: grid;
+    justify-content: center;
+    margin-left: 59px;
+    margin-right: 59px;
+    color: #ffffff;
+  }
+  .library-container .left-box {
+    background-color: #2a8bed;
+    width: 650px;
+    height: 650px;
+  }
+  .library-container .right-box {
+    background-color: black;
   }
 }/*# sourceMappingURL=style.css.map */
